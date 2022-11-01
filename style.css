@@ -1,0 +1,146 @@
+img {
+    max-width: 50%;
+    }
+
+.button {
+            background-color: #e4d2ce; /* Green */
+            border: slategray;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            text-decoration: none;
+            text-emphasis-color: black;
+            display: inline-block;
+            font-size: 16px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 50px;
+            transition: all 0.15s;
+      }
+      .button:hover
+      {
+    color:#4f6ce0;
+    border-color:#1831bd;
+      }
+      .button:active{
+    color:#c533aa;
+    border-color:#e2b4d5;
+    
+      }
+
+.heading {
+    font-size: 30px;
+    padding-top: 100px;
+    }
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+head {
+    text-align: center;
+    }
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    line-height: 120%;
+    text-align: center;
+    background-color: rgb(223, 227, 219);
+    text-decoration: none;
+    }
+
+.card { 
+    background-color: rgb(237, 224, 224);
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+h1 {        
+    color: rgb(15, 15, 89);
+    font-size: x-large;
+    font-weight: lighter;
+    text-align: center;
+    }
+
+    .container {
+        width: 700px;
+        margin: 0 auto;
+    }
+    
+.Join{
+    background: rgb(233, 232, 235);
+    border: 1px solid black;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+     }
+.other{
+     background: rgb(233, 232, 235);
+     border: 1px solid black;
+     box-shadow: 0 0 30px rgba(0,0,0,0.1);
+     border-radius: 5px;
+     padding: 5px;
+     text-align: center;
+       }
+
+    .contact{
+        background: rgb(233, 232, 235);
+        border: 1px solid black;
+        box-shadow: 0 0 30px rgba(0,0,0,0.1);
+        border-radius: 5px;
+        padding: 5px;
+        text-align: center;
+          }
+    
+
+    h2{
+        text-align: center;
+    }
+
+h3 {
+    color: blue;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+         }
+
+p {
+    text-align: center;
+    }
+    
+li {
+    text-align: center;
+    }
+
+
+.Contact{
+    background: rgb(119, 41, 255);
+    border: 2px solid black;
+    justify-content: center;
+    display: flex;
+        }
+s
+.navbar{
+    display: flex;
+    }
+
+.social{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-around;
+    list-style:none;
+    }
+
+@media (max-width:500px){
+    .container{
+        width: 400px;
+    }
+}
